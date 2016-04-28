@@ -9,22 +9,23 @@ h1 {
 	font-size: 1.75em;
 }
 
-section div {
+h2 {
+	border: black 1px solid;
+	text-align: center;
+	padding:0 20px;
+}
+
+section {
 	position:relative;
 	background-color: #D4D2D2;
 	border: black 1px solid;
 	font-size: 1.25em;
 }
 
-div p:nth-child(even) {
+section p{
 	padding-top:30px;
 }
 
-div ,div p:nth-child(odd) {
-	border: black 1px solid;
-	text-align: center;
-	padding:0 20px;
-}
 
 #chicken, #beef, #sushi {
 	position:absolute;
@@ -79,7 +80,7 @@ div ,div p:nth-child(odd) {
 	margin:30px 0 20px 3%
 	} 
 
-	.col-md-6:nth-child(3) {
+	.col-sd-12:nth-child(3) {
 		width:94%;
 		margin-bottom: 40px;
 	}
